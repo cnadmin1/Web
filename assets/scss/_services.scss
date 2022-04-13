@@ -8,7 +8,7 @@
 background-color: CAEAE6;
 }
 .single_services{
-    @include box-shadow (0px 3px 16px 0px rgba($shadow, 0.08));
+    @include box-shadow (0px 3px 16px 0px rgba($shadow, 0.2));
     @include transition(0.3s);
     padding: 50px 30px;
     border-radius: 10px;
@@ -66,23 +66,8 @@ background-color: CAEAE6;
     }
     
     &:hover{
-        background-color: $theme-color;
+        background-color: #D6EBE9;
         
-        & .services_icon{
-            & i{
-                color: $white;
-            }
-        }
-        & .services_content{
-            & .services_title{
-                & a{
-                    color: $white;
-                }
-            }
-            & p{
-                color: $white;
-            }
-        }
     }
 }
 
