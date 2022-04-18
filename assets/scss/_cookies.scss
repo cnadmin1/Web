@@ -2,6 +2,25 @@
       04.COOKIES css 
 ===========================*/
 
+.cookies_area{
+    background-color: #C4E3E0;
+}
+
+.cookies_content{
+    & p{
+        margin-top: 10px;
+    }
+    & .cookies_title{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+}
+
+/*===========================
+      Aviso de Cookies Pop Up
+===========================*/
+
 .aviso-cookies {
 	display: none;
 	background: #fff;

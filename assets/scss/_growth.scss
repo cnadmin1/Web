@@ -8,18 +8,6 @@
 .growth_area{
     position: relative;
     z-index: 5;
-    
-    & .growth_shape{
-        position: absolute;
-        top: 50%;
-        right: 0;
-        @include transform(translateY(-50%));
-        z-index: -1;
-        
-        & .shape{
-            max-width: 593px;
-        }
-    }
 }
 
 .growth_content{
